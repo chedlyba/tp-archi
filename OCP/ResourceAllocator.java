@@ -11,7 +11,7 @@ public class ResourceAllocator
     public void free(Slot slot){
         slot.markFree();
     }
-    private Slot findFreeSlot(<<<<)
+    private Slot findFreeSlot()
     {
         return null;
     }
