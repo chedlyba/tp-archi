@@ -1,7 +1,7 @@
 
 public class ResourceAllocator
 {
-    public int allocate(ResourceType resourceType)
+    public int allocate()
     {
         Slot slot=findFreeSlot();
         slot.markBusy();
@@ -11,7 +11,7 @@ public class ResourceAllocator
     public void free(Slot slot){
         slot.markFree();
     }
-    private Slot findFreeSlot()
+    private Slot findFreeSlot(<<<<)
     {
         return null;
     }
