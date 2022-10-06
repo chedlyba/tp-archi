@@ -1,4 +1,4 @@
-package com.directi.training.dip.exercise;
+
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
